@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.molfar.gardeningcalendar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gardening"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gardening"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GardeningCalendar">
+        <activity android:name=".Contact" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".month.AprilActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".month.DecemberActivity3" />
+        <activity android:name=".month.NovemberActivity3" />
+        <activity android:name=".month.OctoberActivity3" />
+        <activity android:name=".month.SeptemberActivity3" />
+        <activity android:name=".month.AugustActivity3" />
+        <activity android:name=".month.JulyActivity3" />
+        <activity android:name=".month.JuneActivity3" />
+        <activity android:name=".month.MayActivity3" />
+        <activity android:name=".month.MarchActivity" />
+        <activity android:name=".month.FebruaryActivity" />
+        <activity android:name=".month.JenuaryActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
