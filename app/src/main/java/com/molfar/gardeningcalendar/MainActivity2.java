@@ -23,7 +23,10 @@ import com.molfar.gardeningcalendar.month.NovemberActivity3;
 import com.molfar.gardeningcalendar.month.OctoberActivity3;
 import com.molfar.gardeningcalendar.month.SeptemberActivity3;
 
+
 public class MainActivity2 extends AppCompatActivity {
+
+
 
     GridLayout mainGrid;
 
@@ -31,6 +34,8 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
+
 
         mainGrid = (GridLayout) findViewById(R.id.main_grid);
 
