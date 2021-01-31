@@ -23,16 +23,14 @@ public class SplashScreen extends AppCompatActivity {
                 .withBackgroundResource(R.drawable.background_start2)
                 //.withBackgroundColor(Color.parseColor("#074E72"))
                 .withHeaderText("Студія розробки MOLFAR презентує")
-                .withFooterText("Copyright MOLFAR 2020")
-                .withAfterLogoText("за сприяння Alexei Soroka")
                 .withBeforeLogoText("Календар Садівника");
 
 
         config.getHeaderTextView().setTextColor(0xFFF0932B);
         config.getBeforeLogoTextView().setTextSize(30);
-        config.getFooterTextView().setTextColor(0xFFF0932B);
+        //config.getFooterTextView().setTextColor(0xFFF0932B);
         config.getBeforeLogoTextView().setTextColor(0xFFF0932B);
-        config.getAfterLogoTextView().setTextColor(0xFFF0932B);
+        //config.getAfterLogoTextView().setTextColor(0xFFF0932B);
 
         //set to view
         View view = config.create();
